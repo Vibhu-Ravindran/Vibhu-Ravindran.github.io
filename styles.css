@@ -63,3 +63,32 @@ nav a:hover {
 p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    color:  #FFFF00; /* White text color */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center the text */
+}
+
+.footer-content ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+}
+
+.footer-content li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.footer-content a {
+    color: #FFFF00; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Space above the copyright notice */
+}
