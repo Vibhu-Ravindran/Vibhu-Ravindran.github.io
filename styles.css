@@ -36,10 +36,16 @@ body {
 }
 header {
 background-color: #333;
-color: #00FF00	;
+color: #7CFC00	;
 padding: 20px;
+overflow: hidden; 
+border: 2px solid #BEBEBE; /* gray outline */
+
 }
 
+nav {
+      float: right; /* Float the navigation to the right */
+  }
 nav ul {
   list-style-type: none;
   margin: 10px;
@@ -54,6 +60,7 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
+  
 }
 
 nav a:hover {
@@ -64,7 +71,7 @@ p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
 a:link {
-            color: #00FF00; /* Color for unvisited links */
+            color: #7CFC00; /* Color for unvisited links */
         }
         
         a:visited {
