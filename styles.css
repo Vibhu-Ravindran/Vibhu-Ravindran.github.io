@@ -52,18 +52,28 @@ header {
             font-size: 34px;
             font-weight: bold;
             font-family: 'Luminari', fantasy;
-        }
-nav ul li {
-            margin-left: 20px;
-        }
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
 }
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between list items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Padding around links */
+}
+
 nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 5px;
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
 }
 /*nav ul {
   list-style-type: none;
