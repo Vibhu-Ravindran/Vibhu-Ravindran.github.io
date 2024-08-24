@@ -24,14 +24,21 @@ body {
  .container {
             display: flex; /* Use flexbox for layout */
             align-items: center; /* Center items vertically */
+            justify-content: center; /* Center the container horizontally */
+            margin: 50px; /* Add margin to the container */
         }
-.container img {
-    max-width: 300px; /* Set a maximum width for the image */
-    margin-right: 20px; /* Add space between the image and the text */
-}
-.container p {
-    max-width: 600px; /* Optional: Limit the width of the paragraph */
-}
+.image-container {
+      margin-right: 40px; /* Add space between the image and paragraph */
+    }
+    
+    .image-container img {
+      max-width: 300px; /* Set a maximum width for the image */
+    }
+    
+    .paragraph-container {
+      max-width: 500px; /* Limit the width of the paragraph */
+      text-align: justify; /* Justify the paragraph text */
+    }
   header {
   background-color: #333;
   color: #fff;
@@ -73,7 +80,9 @@ nav a:hover {
 </header>
 <h1><center>Vibhu Ravindran</center></h1>
 <div class="container">
+      <div class="image-container">
         <img src="me.jpg" alt="Handsome man">
+      <div class="paragraph-container">
         <p>Hi! I'm Vibhu, a PhD student at Caltech studying theoretical physics. My work is at the intersection of condensed matter physics and quantum information. In particular, I plan to study generalized symmetries in QFT through this lens, hoping to both further our understanding of various phases of matter and make formal developments applicable to other fields. I graduated from UC Berkeley in 2024 with a double major in physics and math.</p>
 </body>
 </html>
