@@ -40,9 +40,10 @@ color: #7CFC00	;
 padding: 20px;
 overflow: hidden; 
 border: 2px solid #BEBEBE; /* gray outline */
-
 }
-
+h2 {
+    font-size: 24px; /* Subheader font size */
+}
 nav {
       float: right; /* Float the navigation to the right */
   }
