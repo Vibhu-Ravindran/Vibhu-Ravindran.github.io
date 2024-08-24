@@ -34,6 +34,9 @@ body {
   align-items: center;
 
 }
+h2 {
+    font-size: 24px; /* Subheader font size */
+}
 header {
   background-color: #333;
   color: #7CFC00	;
@@ -44,20 +47,31 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-h2 {
-    font-size: 24px; /* Subheader font size */
-}
 
-nav ul {
+.name {
+            font-size: 34px;
+            font-weight: bold;
+            font-family: 'Luminari', fantasy;
+        }
+nav ul li {
+            margin-left: 20px;
+        }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+/*nav ul {
   list-style-type: none;
   margin: 10px;
   padding: 10px;
   display: flex;
 }
-.name {
-            font-size: 24px;
-            font-weight: bold;
-        }
+
 nav li {
   margin-right: 20px;
 }
@@ -71,7 +85,7 @@ nav a {
 nav a:hover {
   color: #ccc;
 }
-
+*/
 p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
