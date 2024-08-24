@@ -39,6 +39,7 @@ header {
   color: #7CFC00	;
   padding: 7px;
   border: 2px solid #BEBEBE; /* gray outline */
+  height: 50px
 }
 h2 {
     font-size: 24px; /* Subheader font size */
