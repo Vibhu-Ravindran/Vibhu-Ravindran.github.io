@@ -36,7 +36,7 @@ body {
 }
 header {
 background-color: #333;
-color: #fff;
+color: #90EE90;
 padding: 20px;
 }
 
@@ -81,7 +81,7 @@ footer {
 }
 
 .footer-content a {
-    color: #FFFF00; /* White color for links */
+    color: #90EE90; /* White color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
