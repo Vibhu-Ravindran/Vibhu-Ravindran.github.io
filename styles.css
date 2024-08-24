@@ -37,23 +37,27 @@ body {
 header {
   background-color: #333;
   color: #7CFC00	;
-  padding: 7px;
+  padding: 20px;
   border: 2px solid #BEBEBE; /* gray outline */
-  height: 40px
+ /* height: 40px*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 h2 {
     font-size: 24px; /* Subheader font size */
 }
-nav {
-      margin-left: auto;
-  }
+
 nav ul {
   list-style-type: none;
   margin: 10px;
   padding: 10px;
   display: flex;
 }
-
+.name {
+            font-size: 24px;
+            font-weight: bold;
+        }
 nav li {
   margin-right: 20px;
 }
