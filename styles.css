@@ -4,14 +4,13 @@ body {
   background-position: center;
   background-repeat: repeat;
   height: 100vh;
-  margin: 0;
+  margin: 20px;
   background-color: #000000; /* Black background color */
   color: #FFFF00; /* Yellow text color */
   font-family: New Courier, monospace; /* Set the font family */
   font-size: 16px; /* Set the font size */
   line-height: 1.5; /* Set the line height */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  padding: 10px; /* Remove default padding */
 
 }
  .container {
@@ -44,7 +43,7 @@ padding: 20px;
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   display: flex;
 }
 
