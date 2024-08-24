@@ -63,7 +63,13 @@ nav a:hover {
 p {
     margin-bottom: 15px; /* Space between paragraphs */
 }
-
+a:link {
+            color: green; /* Color for unvisited links */
+        }
+        
+        a:visited {
+            color: purple; /* Color for visited links */
+        }
 footer {
     background-color: #333; /* Dark background for footer */
     color:  #FFFF00; /* White text color */
